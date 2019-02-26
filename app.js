@@ -32,4 +32,7 @@ App({
       });
     });
   },
+	 onLaunch(options) {
+		console.log('onLaunch')
+  },
 });

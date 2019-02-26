@@ -2,5 +2,23 @@
 <favorite>收藏小程序，下次使用更方便</favorite>
 
 <view class="page-my-test">
-	<view>1111</view>
+	<view>{{text}}</view>
+	<button onTap="changeTitle"> Change normal data </button>
+	<view>{{array[0].text}}</view>
+	<button onTap="changeArray"> Change Array data </button>
+	<view>{{object.text}}</view>
+	<button onTap="changePlanetColor"> Change Object data </button>
+	<view>{{newField.text}}</view>
+	<button onTap="addNewKey"> Add new data </button>
+	<view>hello: {{name}}</view>
+	<button onTap="changeName"> Chane name </button>
+	<view class="spliceData">
+		<view a:for="{{a.b}}" key="{{item}}" style="border:1px solid red">
+			{{item}}
+		</view>
+	</view>	
+	<view a:for="{{items}}"> {{item}} </view>
+	<view a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </view>
+	<view a:elif="{{view == 'APP'}}"> APP </view>
+	<view a:else> alipay </view>
 </view>

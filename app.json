@@ -9,9 +9,9 @@
     "titleBarColor": "#323239"
   },
 	"tabBar": {
-    "textColor": "#dddddd",
-    "selectedColor": "#49a9ee",
-    "backgroundColor": "#ffffff",
+    "textColor": "#ce583f",
+    "selectedColor": "#33a9df",
+    "backgroundColor": "#d462ac",
     "items": [
 			{
         "pagePath": "pages/test/test",
