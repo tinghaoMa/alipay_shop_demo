@@ -74,5 +74,8 @@ Page({
 	},
 	touchMove(){
 		console.log('touchMovetouchMovetouchMovetouchMove')
+	},
+	tapName(e){
+		console.log(e)
 	}
 })
