@@ -1,10 +1,30 @@
 {
   "pages": [
+		"pages/test/test",
     "pages/todos/todos",    
     "pages/add-todo/add-todo"
   ],
   "window": {
     "defaultTitle": "Todo App",
     "titleBarColor": "#323239"
+  },
+	"tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+			{
+        "pagePath": "pages/test/test",
+        "name": "练习"
+      },
+      {
+        "pagePath": "pages/todos/todos",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/add-todo/add-todo",
+        "name": "日志"
+      }
+    ]
   }
 }
