@@ -1,4 +1,5 @@
 const app = getApp();
+import temp from '../temp/temp';
 
 Page({
   data: {
@@ -12,9 +13,11 @@ Page({
       b: [1,2,3,4]
     },
 		items: [1, 2, 3],
-		view:'APP'
+		view:'APP',
+		staffA: {firstName: 'san', lastName: 'zhang'},
+		count:1,
   },
-
+	...temp.methods,
 	onLoad(){
     this.$spliceData({ 'a.b': [1, 0, 5, 6] })
   },

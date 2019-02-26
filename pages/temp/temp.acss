@@ -1,0 +1,10 @@
+
+.temp-container{
+	color: white;
+	background-color: red;
+	height: 60rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,7 @@
+<template name="staffName">
+  <view class="temp-container" onTap="onClick">
+    模板使用 FirstName: {{firstName}}, LastName: {{lastName}} 
+		clickme  baby {{count}}
+  </view>
+
+</template>

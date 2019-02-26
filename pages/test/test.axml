@@ -1,6 +1,6 @@
 <!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
 <favorite>收藏小程序，下次使用更方便</favorite>
-
+<import src="../temp/temp.axml"/>
 <view class="page-my-test">
 	<view>{{text}}</view>
 	<button onTap="changeTitle"> Change normal data </button>
@@ -21,4 +21,6 @@
 	<view a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </view>
 	<view a:elif="{{view == 'APP'}}"> APP </view>
 	<view a:else> alipay </view>
+
+	<template is="staffName" data="{{...staffA,count}}"></template>
 </view>
