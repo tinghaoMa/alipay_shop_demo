@@ -69,4 +69,10 @@ Page({
 	handleTap3() {
 		console.log('handleTap33333handleTap333333');
 	},
+	touchStart(){
+		console.log('touchStarttouchStarttouchStart')
+	},
+	touchMove(){
+		console.log('touchMovetouchMovetouchMovetouchMove')
+	}
 })

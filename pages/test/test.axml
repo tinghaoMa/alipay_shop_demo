@@ -5,7 +5,7 @@
 <import src="../temp/temp.axml"/>
 <view class="page-my-test">
 	<scroll-view scroll-y="true">
-		<view id="outter" onTap="handleTap1" style="background-color:white">view1 事件的拦截
+		<view id="outter" onTap="handleTap1" onTouchStart='touchStart' onTouchMove="touchMove" style="background-color:white">view1 事件的拦截
 			<view id="middle" onTap="handleTap2" catchTap="handleTap2" style="background-color:orange;width:400rpx;">view2    
 				<view id="inner" onTap="handleTap3"  catchTap="handleTap3" style="background-color:yellow;width:100rpx;">view3    
 				</view>
